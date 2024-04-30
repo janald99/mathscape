@@ -2,7 +2,7 @@ import "./FooterStyles.css"
 
 import React from 'react'
 
-import { FaHome, FaPhone, FaMailBulk, FaInstagram, FaLinkedin } from "react-icons/fa"
+import { FaHome, FaPhone, FaMailBulk, FaInstagram, FaWhatsapp } from "react-icons/fa"
 
 
 const Footer = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="right">
                 <h4> Follow Us</h4>
                 <div className="social">
-                    <FaLinkedin size={30} 
+                    <FaWhatsapp size={30} 
                         style={{color: "#000080",
                         marginRight: "1rem" }}
                         />
